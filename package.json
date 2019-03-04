@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "pm2 start lib/server.js --watch  --interpreter babel-node",
     "webpack": "webpack -wd",
-    "test":"jest --watch"
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -23,6 +23,7 @@
     "eslint": "^5.15.0",
     "eslint-plugin-react": "^7.12.4",
     "jest": "^19.0.2",
+    "react-test-renderer": "^16.8.3",
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
