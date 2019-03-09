@@ -19,7 +19,9 @@ exports[`Article List rendering tests should behave like tree 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      
+    </div>
     <div
       style={
         Object {
@@ -50,7 +52,9 @@ exports[`Article List rendering tests should behave like tree 1`] = `
           "paddingLeft": 20,
         }
       }
-    />
+    >
+      
+    </div>
   </div>
   <div
     style={
@@ -69,7 +73,9 @@ exports[`Article List rendering tests should behave like tree 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      
+    </div>
     <div
       style={
         Object {
@@ -100,7 +106,9 @@ exports[`Article List rendering tests should behave like tree 1`] = `
           "paddingLeft": 20,
         }
       }
-    />
+    >
+      
+    </div>
   </div>
 </div>
 `;
