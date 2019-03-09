@@ -1,114 +1,152 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Article List rendering tests should behave like tree 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid green",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <Article
+        article={
+            Object {
+                "body": "",
+                "date": "",
+                "id": "a",
+                "title": "",
+              }
+        }
+    />
+    <Article
+        article={
+            Object {
+                "body": "",
+                "date": "",
+                "id": "b",
+                "title": "",
+              }
+        }
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <Article
+            article={
+                  Object {
+                        "body": "",
+                        "date": "",
+                        "id": "a",
+                        "title": "",
+                      }
+            }
+      />
+      <Article
+            article={
+                  Object {
+                        "body": "",
+                        "date": "",
+                        "id": "b",
+                        "title": "",
+                      }
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_currentlyRenderingComponent": null,
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useEffect": [Function],
+      "useImperativeHandle": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useState": [Function],
+    },
+    "_element": <ArticleList
+      articles={
+            Object {
+                  "a": Object {
+                    "body": "",
+                    "date": "",
+                    "id": "a",
+                    "title": "",
+                  },
+                  "b": Object {
+                    "body": "",
+                    "date": "",
+                    "id": "b",
+                    "title": "",
+                  },
+                }
       }
+/>,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_instance": null,
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_previousComponentIdentity": [Function],
+    "_renderPhaseUpdates": null,
+    "_rendered": <div>
+      <Article
+            article={
+                  Object {
+                        "body": "",
+                        "date": "",
+                        "id": "a",
+                        "title": "",
+                      }
+            }
+      />
+      <Article
+            article={
+                  Object {
+                        "body": "",
+                        "date": "",
+                        "id": "b",
+                        "title": "",
+                      }
+            }
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ArticleList
+    articles={
+        Object {
+            "a": Object {
+              "body": "",
+              "date": "",
+              "id": "a",
+              "title": "",
+            },
+            "b": Object {
+              "body": "",
+              "date": "",
+              "id": "b",
+              "title": "",
+            },
+          }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    >
-      
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    >
-      
-    </div>
-  </div>
-  <div
-    style={
-      Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid green",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    >
-      
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    >
-      
-    </div>
-  </div>
-</div>
+/>,
+}
 `;
