@@ -9,7 +9,7 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div>
-    <ArticleContainer
+    <ArticleComponent
         article={
             Object {
                 "body": "",
@@ -19,7 +19,7 @@ ShallowWrapper {
               }
         }
     />
-    <ArticleContainer
+    <ArticleComponent
         article={
             Object {
                 "body": "",
@@ -32,7 +32,7 @@ ShallowWrapper {
 </div>,
   "nodes": Array [
     <div>
-      <ArticleContainer
+      <ArticleComponent
             article={
                   Object {
                         "body": "",
@@ -42,7 +42,7 @@ ShallowWrapper {
                       }
             }
       />
-      <ArticleContainer
+      <ArticleComponent
             article={
                   Object {
                         "body": "",
@@ -99,7 +99,7 @@ ShallowWrapper {
     "_previousComponentIdentity": [Function],
     "_renderPhaseUpdates": null,
     "_rendered": <div>
-      <ArticleContainer
+      <ArticleComponent
             article={
                   Object {
                         "body": "",
@@ -109,7 +109,7 @@ ShallowWrapper {
                       }
             }
       />
-      <ArticleContainer
+      <ArticleComponent
             article={
                   Object {
                         "body": "",
