@@ -1,6 +1,6 @@
 # React Js Porject 
 
-(React+Express+Jest+React Dom renderer+ Enzyme+webpack+ PM2+babel+babel-preset +babel-polyfill +eslint)
+(React+Express+Jest+React Dom renderer+ Enzyme+webpack+ PM2+babel+babel-preset +babel-polyfill +eslint + Yarn)
 
 
 
