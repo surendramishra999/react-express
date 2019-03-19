@@ -92,11 +92,35 @@ ShallowWrapper {
 />,
     "_firstWorkInProgressHook": null,
     "_forcedUpdate": false,
-    "_instance": null,
+    "_instance": ArticleList {
+      "context": Object {},
+      "props": Object {
+        "articles": Object {
+          "a": Object {
+            "body": "",
+            "date": "",
+            "id": "a",
+            "title": "",
+          },
+          "b": Object {
+            "body": "",
+            "date": "",
+            "id": "b",
+            "title": "",
+          },
+        },
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
     "_isReRender": false,
     "_newState": null,
     "_numberOfReRenders": 0,
-    "_previousComponentIdentity": [Function],
+    "_previousComponentIdentity": null,
     "_renderPhaseUpdates": null,
     "_rendered": <div>
       <ArticleComponent
